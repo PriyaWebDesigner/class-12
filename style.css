@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: linear-gradient( to right bottom, orangered, #fbdbfb);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+    display: flex;
+}
+
+.container{
+    width: 500px;
+    margin: 100px auto;
+    background:linear-gradient(to right bottom, aquamarine,cyan);
+    padding: 30px 40px 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+}
+
+.reg-form{
+    display: grid;
+    /* grid-template-columns: 225px; */
+    row-gap: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid orangered;
+
+}
+
+input:focus{
+    outline: none;
+    box-shadow: rgba(214, 17, 17, 0.822) 0px 54px 55px, rgba(218, 64, 64, 0.838) 0px -12px 30px, rgba(224, 38, 38, 0.934) 0px 4px 6px, rgba(214, 38, 38, 0.803) 0px 12px 13px, rgba(191, 35, 35, 0.841) 0px -3px 5px;
+}
+
+.btn-form{
+    background: linear-gradient( to right bottom,#fbdb89 ,#4bbd);
+    color: white;
+    width: 85%;
+    margin: auto;
+    padding: 9px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.btn-login{
+    background: linear-gradient( to right bottom,#f48982 ,#fbdbfb);
+    color: white;
+    width: 85%;
+    margin: auto;
+    padding: 9px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
